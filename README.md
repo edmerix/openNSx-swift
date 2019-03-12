@@ -10,11 +10,11 @@ Briefly:
 let raw = openNSx()
 raw.open(fileName: "~/Data/exampleFile.ns5")
 
-# what time did the file start?
+// what time did the file start?
 print("File start in local time: \(raw.startTimeFormatted)")
 
-# read in a channel:
+// read in a channel:
 let data = raw.readChannel(chan: 41)
 
-# and away you go with your analyses or plotting...
+// and away you go with your analyses or plotting...
 ```
