@@ -4,7 +4,7 @@ An object-oriented approach to dealing with neural data stored in Blackrock's NS
 
 ## Usage
 
-Example usage is given in ExampleFileRead.swift
+Example usage is given in [ExampleFileRead.swift](https://github.com/edmerix/openNSx-swift/blob/master/ExampleFileRead.swift)
 Briefly:
 ```swift
 let raw = openNSx()
